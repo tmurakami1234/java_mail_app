@@ -5,7 +5,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-//import mailSender;
+import mailSender;
 
 public class mailController{
 
@@ -35,7 +35,7 @@ public class mailController{
 
     @FXML
     void sendMessage(ActionEvent event) {
-	//mailSender(fromAddress, fromPassword, toAddress, subject, message);
+	mailSender mailsender = new mailSender(fromAddress, fromPassword, toAddress, subject, message);
     }
 
     @FXML
