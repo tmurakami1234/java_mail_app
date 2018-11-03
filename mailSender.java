@@ -10,7 +10,7 @@ import com.sun.mail.smtp.SMTPTransport;
 
 public class mailSender {
 
-	 mailSender(String fromAddress,
+	 public mailSender(String fromAddress,
                     String fromPassword,
                     String toAddress, 
                     String subject,
